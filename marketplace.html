@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="marketplace.css">
+</head>
+<body>
+     <!-- header/navbar -->
+     <header>
+        <div class="no-display" id="hamburger">
+            <button class="ham-btn"> <img src="./images/hamburger-icon.svg" alt=""></button>
+        </div>
+        <div id="logo" class="no-display">
+    <img src="/images/logo.svg" alt="">
+</div>
+        <div id="nav">
+            <div class="logo1">
+                <img src="/images/logo.svg" alt="">
+                <button class="cls-btn"><img src="/images/close.svg" alt=""></button>
+            </div>
+
+           <a href="index.html">Home</a>
+           <a href="marketplace.html">Marketplace</a>
+           <a href="auction.html">Auctions</a>
+           <a href="drop.html">Drop</a>
+        </div>
+           <div id="icons" class="no-display">
+            <a  href="#"><img class="search1" src="/images/Vector.svg" alt="search icon"></a>
+            <a  href="#"><img class="cart" src="/images/cart.svg" alt="cart icon"></a>
+            <a  href="#"><img class="notification" src="/images/notification.svg" alt="notification icon"></a>
+           </div>
+       
+    </header>
+
+    <main>
+        <!-- search bar -->
+        <div class="searchbar">
+            <form action="" class="search">
+                <button><img src="/images/search.svg" alt=""></button>
+                <input type="text" placeholder="search">
+            </form>
+            <!-- sort result -->
+            <div class="sort-result">
+                <p>See 1-6 of 15 results</p>
+                <select name="" id="sort-by">
+                    <option disabled selected value=""> sort by</option>
+                    <option > lorem ipsum</option>
+                    <option > lorem ipsum</option>
+                </select>
+            </div>
+        </div>
+
+
+        <!-- filter & arts results -->
+    <div class="filter-art-results">
+        <!-- filters -->
+        <div class="filters">
+            <div class="filter1">
+                <div class="filter">
+                <img src="/images/filter.svg" alt="">
+                <p>Filter</p>
+            </div>
+                <hr>
+            </div>
+
+            <!-- filter by category -->
+            <div class="category">
+                <div class="category-text">
+                <p>By category</p>
+                <img src="up arrow.svg" alt="">
+                </div>
+                <form action="" class="checkbox">
+                    <!-- editorials -->
+                 <div class="editorials">
+                        <input type="checkbox" name="category1" id="category1" value="editorial">
+                        <label for="category1">Editorials</label>
+                 </div>
+
+                    <!-- fashion -->
+                 <div class="fashion">
+                        <input type="checkbox" name="category2" id="category2" value="fashion">
+                        <label for="category2">fashion </label>
+                 </div>
+                    <!-- Optics -->
+                 <div class="optics">
+                        <input type="checkbox" name="category3" id="category3" value="Optics">
+                        <label for="category3">Optics</label>
+                 </div>
+                    <!-- Art&Museum -->
+                 <div class="art-museum">
+                        <input type="checkbox" name="category4" id="category4" value="art&museum">
+                        <label for="category4">Arts & Museum</label>
+                 </div>
+
+                    <!-- Nature -->
+                 <div class="nature">
+                        <input type="checkbox" name="category5" id="category5" value="nature">
+                        <label for="category1">Nature</label>
+                 </div>
+            </form>
+            </div>
+
+            <!-- sort by price -->
+            <div class="sort-price">
+                <div class="by-price">
+                    <p>By Price</p>
+                    <img src="/images/up arrow.svg" alt="">
+                </div>
+                <form action="" class="price-range">
+                    <label for="price">$100.00 - $150.00</label>
+                    <input type="range" id="price" name="price" min="100" max="150">
+                </form>
+            </div>
+
+
+            <!-- sort by Artist -->
+            <div class="sort-artist">
+                <div class="sort-artist-text">
+                    <p>By Artist</p>
+                    <img src="/images/up arrow.svg" alt="">
+                </div>
+                <div class="all">
+                    <p>All</p>
+                    <p>Below $100.00</p>
+                    <p>$100.00 - $150.00</p>
+                    <p>$150.00 - $200.00</p>
+                    <p>Above $200.00</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- arts results -->
+        <div class="arts-result">
+            <div class="arts1">
+                <!-- Philomena-->
+                <div class="philomena">
+                    <img src="/images/philomena.svg" alt="">
+                    <p class="p1">PHILOMENA ‘22</p>
+                    <p class="p2"> $3.90</p>
+                </div>
+
+                <!-- Boolean Egyptian -->
+                <div class="boolean">
+                    <img src="/images/boolean.svg" alt="">
+                    <a class="p1" href="product.html">BOOLEAN EGYPTIAN</a>
+                    <p class="p2"> $3.90</p>
+                </div>
+
+                <!-- Blanc -->
+                <div class="blanc">
+                    <img src="/images/blanc.svg" alt="">
+                    <p class="p1">BLANC</p>
+                    <p class="p2"> $3.90</p>
+                </div>
+            </div>
+
+            <div class="arts2">
+                <!-- elipsia -->
+                <div class="elipsia">
+                    <img src="/images/elipsis.svg" alt="">
+                    <p class="p1">ELIPSIA</p>
+                    <p class="p2"> $3.90</p>
+                </div>
+
+                <!-- the lawmakers -->
+                <div class="lawmaker">
+                    <img src="/images/lawmaker.svg" alt="">
+                    <p class="p1">THE LAWMAKERS</p>
+                    <p class="p2"> $3.90</p>
+                </div>
+
+                <!-- veil -->
+                <div class="veil">
+                    <img src="/images/veil.svg" alt="">
+                    <p class="p1">VEIL</p>
+                    <p class="p2"> $3.90</p>
+                </div>
+            </div>
+
+
+            <div class="arts3">
+                <!-- alternating -->
+                <div class="alternating">
+                    <img src="/images/alternating.svg" alt="">
+                    <p class="p1">ALTERNATING</p>
+                    <p class="p2"> $3.90</p>
+                </div>
+
+                <!-- rosemary -->
+                <div class="rosemary">
+                    <img src="/images/rosemary.svg" alt="">
+                    <p class="p1">ROSEMARY ‘22</p>
+                    <p class="p2">$3.90</p>
+                </div>
+
+                <!-- Beverly -->
+                <div class="beverly">
+                    <img src="/images/beverly.svg" alt="">
+                    <p class="p1">BEVERLY</p>
+                    <P class="p2">$3.90</P>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="btn">
+    <button class="see-more">SEE MORE</button>
+</div>
+    </main>
+</body>
+</html>

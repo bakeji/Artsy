@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Bellefair&family=Poppins&family=STIX+Two+Text:wght@700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@500,400&f[]=clash-display@200,400,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#hamburger{
+    display: none ;
+}
+header{
+    display: flex;
+}
+html{
+    overflow-x: hidden;
+}
+#logo img{
+margin-top: 40px;
+margin-left: 183px;
+}
+.logo1{
+    display: none;
+}
+.cls-btn{
+    display: none;
+}
+#nav{
+display: flex;
+flex-direction: row;
+ align-items: flex-start;
+ padding: 0px;
+gap: 47px;
+margin-left: 200px;
+}
+#nav a{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 90px;
+text-decoration: none;
+color: #292929;
+}
+#nav a:active{
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-left: 100px;
+}
+
+
+
+    .searchbar{
+        display: flex;
+        gap: 100px;
+        margin-left: 103px;
+    }
+    .search{
+ width: 215px;
+height: 60px;
+background: #F4F2F2;
+border-radius: 15px;
+display: inline;
+margin-top: 20px;
+    }
+    .search button{
+      border: none;
+      margin-left: 20px;
+     margin-top: 10px;
+    }
+    .search input{
+        height: 40px;
+        background-color:#F4F2F2;
+       border: none;
+        width: 130px;
+        margin-left: 10px;
+    }
+
+    .search input::placeholder{
+        font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #999999;
+    }
+.sort-result{
+width: 913px;
+height: 91px;
+background: #FFFFFF;
+box-shadow: 4px 4px 64px rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+display: flex;
+gap: 450px;
+}
+.sort-result p{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 82px;
+color: #000000;
+margin-left: 32px;
+}
+.sort-result select{
+    width: 191px;
+height: 58px;
+border: 0.4px solid #000000;
+border-radius: 8px;
+margin: auto 0;
+}
+#sort-by option{
+     text-align: center;
+}
+
+
+.filter-art-results{
+    display: flex;
+    margin-left: 103px;
+    margin-top: 80px;
+    gap: 80px;
+}
+.filters{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+.filter{
+    display:flex;
+    gap:25px;
+}
+.filter1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.filter p{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 157.6%;
+color: #000000;
+}
+hr{
+    width: 244px;
+height: 6px;
+background: #AFB091;
+border-radius: 10px;
+}
+.sort-price, .sort-artist{
+    margin-top: 120px;
+}
+
+.category, .sort-price, .sort-artist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.category-text, .by-price, .sort-artist-text{
+    display: flex;
+    gap: 90px;
+}
+.category-text p, .by-price p,  .sort-artist-text p{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 44px;
+color: #000000;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.price-range{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+input[type="range"] {
+width: 180px;
+height: 6px
+}
+
+
+    .all{
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .arts-result{
+        display: flex;
+        flex-direction: column;
+    gap:50px;
+    margin-top: 30px;
+    }
+
+    .arts1, .arts2, .arts3{
+        display: flex;
+        gap: 20px;
+    }
+    .philomena, .boolean, .blanc, .elipsia, .lawmaker, .veil, .alternating, .rosemary, .beverly{
+        width: 269px;
+height: 414px;
+background: #FFFFFF;
+box-shadow: 0px 34px 68px rgba(217, 225, 244, 0.36);
+border-radius: 15px;
+    }
+    .p1{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 45px;
+margin-left: 10px;
+text-decoration: none;
+color: #333333
+    }
+    .p2{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+margin-left: 10px;
+line-height: 95px;
+   }
+   .btn{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 250px;
+   }
+  .see-more{
+    width: 249px;
+height: 73px;
+border: 1px solid #333333;
+border-radius: 10px;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 41px;
+color: #333333;
+text-align: center;
+  } 

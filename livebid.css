@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Bellefair&family=Poppins&family=STIX+Two+Text:wght@700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@500,400&f[]=clash-display@200,400,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.links{
+    margin-left: 63px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+ .links a{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 52px;
+    color: #BCB7B7;
+    text-decoration: none;
+}
+.art-bid{
+    margin-left: 63px;
+    display: flex; 
+    border: 1px solid black;
+    width: 1240px;
+height: 808px;
+}
+.art, .art img{
+    width: 620px;
+height: 808px;
+}
+
+.cls-live-btn{
+    display: flex;
+  position: relative;
+    bottom: 780px;
+    margin-left: 20px;
+    gap: 420px;
+} 
+.close-btn img{
+    width: 32px;
+    height: 32px;
+}
+.close-btn{
+width: 49px;
+height: 49px;
+border: none;
+text-align: center;
+border-radius: 50%;
+background: rgba(184, 180, 180, 0.49);;
+}
+.live{
+    width: 104px;
+height: 39px;
+background: #4693ED;
+border-radius: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+border: none;
+}
+.cur-bid{
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+}
+
+.cur-bid p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+color: #FFFFFF;
+}
+.art-tag{
+    position: relative;
+    bottom: 200px;
+    margin-left: 50px;
+}
+.art-tag p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+color: #FFFFFF;
+}
+.chart-room{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 620px;
+    height: 808px;
+    margin-left: 40px;
+}
+.bid{
+    display: flex;
+    gap: 22px;
+    margin-top: 20px;
+}
+
+.bid img{
+     width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.user-bid{
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+}
+.user-bid p{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 35px;
+color: #333333;
+}
+.creator{
+margin-top: 20px;
+}
+.creator p{
+    font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+color: #BAB9B9
+}
+.place-bids{
+    display: flex;
+    gap: 80px;
+}
+.place-bids-text{
+ width: 404px;
+height: 65px;
+display: flex;
+border-radius: 25px;
+border: 1px solid #000000;
+
+}
+input{
+    width: 304px;
+height: 45px;
+margin:auto 0;
+border: none;
+margin-left: 20px;
+caret-shape: bar;
+}
+input::placeholder{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 157.6%;
+color: #616161;
+}
+input:focus{
+   outline: none;
+}
+.like-btn button{
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+.place-bids-text button{
+    border: none;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+}
+.upcoming-drops{
+    display: flex;
+    margin-left: 83px;
+    margin-top: 40px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.upcoming-drops p{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 64px;
+color: #000000
+}
+.upcoming-drops button{
+    width: 78px;
+height: 78px;
+border-radius: 50%;
+background: #ffffff;
+border: 0.5px solid #000000;
+}

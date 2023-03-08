@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Bellefair&family=Poppins&family=STIX+Two+Text:wght@700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@500,400&f[]=clash-display@200,400,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#hamburger{
+    display: none ;
+}
+header{
+    display: flex;
+}
+html{
+    overflow-x: hidden;
+}
+#logo img{
+margin-top: 40px;
+margin-left: 183px;
+}
+.logo1{
+    display: none;
+}
+.cls-btn{
+    display: none;
+}
+#nav{
+display: flex;
+flex-direction: row;
+ align-items: flex-start;
+ padding: 0px;
+gap: 47px;
+margin-left: 200px;
+}
+#nav a{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 90px;
+text-decoration: none;
+color: #292929;
+}
+#nav a:active{
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-left: 100px;
+}
+
+
+    .links{
+        margin-left: 103px;
+        margin-bottom: 30px;
+    }
+
+    .links a{
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 52px;
+        color: #BCB7B7;
+        text-decoration: none;
+    }
+
+    .overview-text{
+        margin-left: 103px;
+        margin-bottom: 40px;
+    }
+    .overview-text p{
+        font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 38px;
+color: #000000;
+    }
+
+      .overview{
+        display: flex;
+    overflow-x: scroll;
+    margin-left: 103px;
+    gap: 40px;
+    height: 495px;
+    } 
+    .overview::-webkit-scrollbar{
+        display: none;
+    } 
+     .arts-countdown{
+        width: 485px;
+        height: 396px;
+    }
+
+    .countdown{
+ background: rgba(245, 244, 244, 0.24);
+border: 0.5px solid #FFFFFF;
+backdrop-filter: blur(1.5px);
+border-radius: 8px;
+margin-top: 270px;
+height: 85px;
+position: relative;
+bottom: 137px;
+margin: 0 auto;
+width: 290px; 
+    } 
+    .countdown a{
+font-family: 'STIX Two Math';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+text-decoration: none;
+text-align: center;
+line-height: 64px;
+color: #ffffff;
+
+    }  
+
+
+    .top-bids-text{
+        margin-left: 103px;
+        margin-top: 40px;
+    }
+    .top-bids-text p{
+        font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 64px;
+color: #000000;
+margin-bottom: 40px;
+    }
+    .box-apart{
+        display: flex;
+        margin-left: 103px;
+        gap:70px;
+        margin-bottom: 90px;
+    }
+
+    .box, .apart{
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+    }
+    .out-of-box, .falling-apart{
+        width: 545px;
+height: 498px;
+display: flex;
+gap: 20px;
+flex-direction: column;
+justify-content: center;
+background: #FFFFFF;
+box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+    }
+    .like-icon{
+        text-align: right;
+        margin-right: 40px;
+    }
+    .like-icon button{
+        width: 68px;
+height: 68px;
+border: 1px solid #000000;
+border-radius: 50%;
+    }
+    .title{
+         margin-left: 25px;
+    }
+    .title p{
+        font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 64px;
+color: #000000;
+    }
+    .art-details{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .p1, .p2, .p3,.p4{
+        font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 64px;
+color: #616161;
+    }
+    span{
+        font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 64px;
+color: #333333;
+    }
+    .cur-bid{
+ width: 545px;
+height: 147px;
+background: #F7F4F4;
+border-radius: 10px;
+display: flex;
+gap: 100px;
+
+    }
+    .cur-bid-text{
+        margin-left: 22px;
+    }
+    .p5{
+        font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 64px;
+color: #000000;
+    }
+
+    .plc-bid-btn{
+        display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+    }
+    .plc-bid-btn button{
+        width: 247px;
+height: 73px;
+left: 388px;
+top: 2002px;
+background: #3341C1;
+border-radius: 4px;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 25.7751px;
+line-height: 35px;
+color: #FFFFFF;
+border: none;
+    }
